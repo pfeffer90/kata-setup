@@ -4,7 +4,8 @@
   "description": "My first npm module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no script specified yet for running tests\" && exit 1",
+    "pretest": "npm run jshint",
+    "test": "mocha ./**/*.spec.js",
     "jshint": "jshint ./src/*.js"
   },
   "keywords": [
@@ -14,6 +15,7 @@
   "author": "Jesús Real and Paul Pfeiffer",
   "license": "ISC",
   "devDependencies": {
-    "jshint": "^2.9.1"
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5"
   }
 }
