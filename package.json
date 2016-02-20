@@ -4,12 +4,16 @@
   "description": "My first npm module",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no script specified yet for running tests\" && exit 1",
+    "jshint": "jshint ./src/*.js"
   },
   "keywords": [
     "js-weekend-workshop",
     "muenchen"
   ],
   "author": "Jesús Real and Paul Pfeiffer",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jshint": "^2.9.1"
+  }
 }
