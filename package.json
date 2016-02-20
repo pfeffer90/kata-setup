@@ -1,0 +1,15 @@
+{
+  "name": "npm-as-a-build-tool",
+  "version": "0.0.1",
+  "description": "My first npm module",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "js-weekend-workshop",
+    "muenchen"
+  ],
+  "author": "Jesús Real and Paul Pfeiffer",
+  "license": "ISC"
+}
