@@ -1,0 +1,24 @@
+{
+  "name": "npm-as-a-build-tool",
+  "version": "0.0.1",
+  "description": "My first npm module",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "mocha --compilers js:mocha-traceur ./**/*.spec.js",
+    "lint": "eslint src"
+  },
+  "keywords": [
+    "js-weekend-workshop",
+    "muenchen"
+  ],
+  "author": "Jesús Real and Paul Pfeiffer",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^5.0.0",
+    "eslint": "^2.2.0",
+    "mocha": "^2.4.5",
+    "mocha-traceur": "^2.1.0",
+    "traceur": "0.0.102"
+  }
+}
